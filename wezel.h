@@ -9,7 +9,7 @@ public:
 //Metody poniżej są set'ami i get'ami dla powyższych prywatnych zmiennych i wksaźników
 Wezel();
 Wezel<TYP> * getNastepny() const; //wyciagnij z private'a
-Wezel<TYP> * getPoprzedni() const;
+Wezel<TYP> * getPoprzedni() const; 
 void setNastepny(Wezel<TYP> *_nastepny);
 void setPoprzedni(Wezel<TYP> *_poprzedni);
 TYP getWartosc() const;
